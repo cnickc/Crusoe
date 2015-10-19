@@ -5,7 +5,10 @@ Originally meant to be run on a raspberry pi.  There is as little to this as
 possible.  No database.  Minimal interface.  Modest customizability.
 
 Ideal for small 1 or 2 person projects, where you just want to keep a running 
-list of To-Dos.  
+list of To-Dos.
+
+Runs on a node server.  Required packages:  Express, body-parser, crypto.  
+Start by running node on bugtracker.js.
 
 Design Choices:
 -Issues are sorted by status, and then by priority.  

@@ -1,0 +1,31 @@
+<div>
+   Review/Update this Item
+</div>
+<br/>
+
+<div>
+   <div>
+      ID: {{bug.id}}
+   </div>
+   <div>
+      Title: <input ng-model="bug.title" type="text" size="100">
+   </div>
+   <div>
+      Description:<br/>
+      <textarea ng-model="bug.description" type="text" rows="10" cols="100"></textarea>
+   </div>
+   <div>
+      Status: 
+      <select ng-model="bug.status">
+         <option ng-repeat="status in statuses" value="{{status}}">{{status}}</option>
+      </select>
+   </div>
+   <div>
+      Priority:
+      <select ng-model="bug.priority">
+         <option ng-repeat="priority in priorities" value="{{priority}}">{{priority}}</option>
+      </select>
+   </div>
+</div>
+
+<div ng-click="SubmitChanges()" class="button">Submit!</div>

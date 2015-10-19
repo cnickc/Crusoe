@@ -1,0 +1,9 @@
+<div>
+   Please select a project
+</div>
+<br />
+<a href="#/CreateProject">Create a New Project</a>
+<div ng-repeat="project in projects">
+   <div ng-dblclick="DeleteProject(project)" class="smallbutton">X</div> <a href="#/Projects/{{project}}">{{project}}</a>
+</div>
+<br/>

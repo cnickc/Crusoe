@@ -1,0 +1,14 @@
+{
+  "priorities": [
+    "feature",
+    "low",
+    "moderate",
+    "severe",
+    "critical"
+  ],
+  "statuses": [
+    "open",
+    "resolved"
+  ],
+  "projects": {}
+}

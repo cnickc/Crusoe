@@ -1,0 +1,27 @@
+<div>
+   Create a new Item
+</div>
+<br/>
+
+<div>
+   <div>
+      Title: <input ng-model="bugTitle" type="text" size="100">
+   </div>
+   <div>
+      Description:<br/> 
+      <textarea ng-model="bugDescription" type="text" cols="100" rows="10"></textarea>
+   </div>
+   <div>
+      Status:
+      <select ng-model="bugStatus">
+         <option ng-repeat="status in statuses" value="{{status}}">{{status}}</option>
+      </select>
+   </div>
+   <div>
+      Priority:
+      <select ng-model="bugPriority">
+         <option ng-repeat="priority in priorities" value="{{priority}}">{{priority}}</option>
+      </select>
+   </div>
+</div>
+<div ng-click="createBug()" class="button">Create!</div>

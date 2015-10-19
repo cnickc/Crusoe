@@ -1,0 +1,129 @@
+body {
+   padding:0;
+   margin:0;
+   background: linear-gradient(to right, #06000a 0%, #400042 15%, #400042 85%, #06000a 100%);
+   color: #d6d6d8;
+   text-decoration:none;
+   font-family:Verdana;
+   font-size:1em;
+}
+
+a {
+   color:#d6d6d8;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#d44245;
+   font-weight:bold;
+}
+
+.titleBar {
+   height: 4em;
+   background: #400042;
+   color: #d44245;
+}
+
+.title {
+   font-size:3em;
+   font-weight:bold;
+   margin-left:10%;
+}
+
+.title:hover {
+   color:#d6d6d8;
+}
+
+.titleUnderline {
+   height: 2px;
+   background:linear-gradient(to right, #d44245 15%, #400042 50%, #d44245 85%);
+}
+
+.main{
+   padding-left: 15%;
+   padding-right: 15%;
+}
+
+.smallbutton{
+   width:1.5em;
+   height:1em;
+   line-height:1em;
+   background-color:#d44245;
+   color:#d6d6d8;
+   border-radius:5px;
+   display:inline-block;
+   text-align:center;
+}
+
+.smallbutton:hover{
+   box-shadow: 0 0 10px #d44245;
+}
+
+.button{
+   width: 5em;
+   height: 1.25em;
+   line-height: 1.25em;
+   background-color: #d44245;
+   color: #d6d6d8;
+   border-radius: 5px;
+   display:inline-block;
+   text-align:center;
+   font-variant: small-caps;
+}
+
+.button:hover{
+   box-shadow: 0 0 10px #d44245;
+}
+
+.error{
+   color:#d44245;
+}
+
+.buglist{
+   display:inline-block;
+}
+
+.listcell {
+   float:left;
+   border:1px solid #d44245;
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+}
+
+.bugid{
+   width:100px;
+   text-align:center;
+}
+
+.bugtitle{
+   width:485px;
+   text-align:left;
+   padding-left:5px;
+}
+
+.bugpriority{
+   width:115px;
+   text-align:left;
+   padding-left:5px;
+}
+
+.bugstatus{
+   width:115px;
+   text-align:left;
+   padding-left:5px;
+}
+
+.buglistcontainer{
+   border: 1px solid #d44245;
+   display:inline-block;
+   width:838px;
+}
+
+.resolved{
+   text-decoration: line-through;
+}
+
+.resolved:hover{
+   font-weight:normal !important;
+}

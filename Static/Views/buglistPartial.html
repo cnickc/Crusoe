@@ -1,0 +1,22 @@
+<div>
+   Items for this project
+</div>
+<br/>
+
+<a href="#/Projects/{{project}}/CreateBug">Create a New Item</a>
+<div class="buglistcontainer">
+   <div ng-repeat="bug in bugs">
+      <a href="#/Projects/{{project}}/Bug/{{bug.id}}">
+         <div class="buglist bugid listcell">
+            {{bug.id}}
+         </div><div class="buglist bugtitle listcell {{bug.status}}"> 
+            {{bug.title}}
+         </div><div class="buglist bugpriority listcell">
+            {{bug.priority}}
+         </div><div class="buglist bugstatus listcell">
+            {{bug.status}}
+         </div>
+      </a>
+   </div>
+</div>
+
